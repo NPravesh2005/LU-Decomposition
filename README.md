@@ -25,7 +25,6 @@ Run the program.
 Developed by: N.PRAVESH
 RegisterNumber: 212223230154
 '''
-
 import numpy as np
 from scipy.linalg import lu
 a = np.array(eval(input()))
@@ -39,7 +38,6 @@ print(U)
 Developed by: N.PRAVESH
 RegisterNumber: 212223230154
 '''
-
 # To print X matrix (solution to the equations)
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
@@ -49,18 +47,11 @@ lu,piv = lu_factor(A)
 X = lu_solve((lu,piv),B)
 print(X)
 ```
-
 ## Output:
-
 (i) L and U matrix
-
 ![Screenshot 2024-04-19 163953](https://github.com/NPravesh2005/LU-Decomposition/assets/164477756/adabd7ef-34f2-4896-ada7-fc4591c3ecf0)
-
 (ii) LU Decomposition of a matrix
-
 ![Screenshot 2024-04-19 164027](https://github.com/NPravesh2005/LU-Decomposition/assets/164477756/203cefe6-be59-42ae-9bda-0d37e0666888)
-
-
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
 
